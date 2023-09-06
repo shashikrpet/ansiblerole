@@ -2,7 +2,7 @@
 - name: Log in to Docker Hub
   become: yes
   docker_login:
-    username: shashi.csek@gmail.com
+    username: shashi@gmail.com
     password: Shashi123456
     registry_url: https://index.docker.io/v1/
   register: docker_login_result
