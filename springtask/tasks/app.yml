@@ -3,7 +3,7 @@
   become: yes
   docker_login:
     username: shashi.csek@gmail.com
-    password: Shashi@1997
+    password: Shashi123456
     registry_url: https://index.docker.io/v1/
   register: docker_login_result
 
