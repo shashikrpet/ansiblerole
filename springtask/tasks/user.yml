@@ -1,0 +1,13 @@
+---
+- name: Create demo group
+  become: yes
+  group:
+    name: demo
+    state: present
+
+- name: Create demo user
+  become: yes
+  user:
+    name: unix
+    group: demo
+    state: present

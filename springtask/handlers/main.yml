@@ -1,0 +1,7 @@
+---
+# handlers file for /home/ubuntu/roles/springtask
+- name: Restart Spring Boot App
+  become: yes
+  systemd:
+    name: spring_boot_app
+    state: restarted
